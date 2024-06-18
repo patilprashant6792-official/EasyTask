@@ -40,9 +40,7 @@ coverage/
 .vscode/
 .vscode/*
 
-# Ignore config files
-config.js
-config.json
+.DS_Store
 
 # Ignore IntelliJ IDEA and WebStorm project files
 .idea/
