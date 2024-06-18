@@ -1,0 +1,44 @@
+/* TaskForm.css */
+.task-form {
+  transition: background 0.3s, color 0.3s;
+}
+
+.task-form.light {
+  background: #ffffff;
+  color: #000000;
+}
+
+.task-form.dark {
+  background: #333333;
+  color: #ffffff;
+}
+
+.task-form .ant-form-item-label > label {
+  color: inherit;
+}
+
+.task-form .ant-input,
+.task-form .ant-radio-group,
+.task-form .ant-input-textarea {
+  background: inherit;
+  color: inherit;
+}
+
+.task-form .ant-input::placeholder {
+  color: #aaa;
+}
+
+.task-form .ant-btn-primary {
+  background: #1890ff;
+  border-color: #1890ff;
+}
+
+.task-form .ant-btn-primary:hover,
+.task-form .ant-btn-primary:focus {
+  background: #40a9ff;
+  border-color: #40a9ff;
+}
+
+.ant-radio-wrapper {
+  color: inherit;
+}

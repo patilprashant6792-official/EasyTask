@@ -1,0 +1,73 @@
+/* TaskRow.css */
+.task-row {
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.task-row.light {
+  background: #ffffff;
+  color: #000000;
+}
+
+.task-row.dark {
+  background: #1f1f1f;
+  color: #ffffff;
+}
+
+.task-row-title {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  color: inherit; /* Inherit color based on theme */
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.no-tasks {
+  color: #ccc;
+  text-align: center;
+}
+
+.draggable-task-card {
+  cursor: grab;
+}
+
+.draggable-task-card:active {
+  cursor: grabbing;
+}
+
+@media (min-width: 769px) {
+  .task-list {
+      flex-direction: row;
+      overflow-x: auto;
+      overflow-y: hidden;
+  }
+
+  .task-list::-webkit-scrollbar {
+      height: 4px;
+  }
+
+  .task-list::-webkit-scrollbar-thumb {
+      background: #888;
+      border-radius: 4px;
+  }
+
+  .task-list::-webkit-scrollbar-thumb:hover {
+      background: #555;
+  }
+}
+
+@media (max-width: 768px) {
+  .task-row {
+      padding: 0.5rem;
+  }
+
+  .task-list {
+      gap: 0.5rem;
+  }
+}

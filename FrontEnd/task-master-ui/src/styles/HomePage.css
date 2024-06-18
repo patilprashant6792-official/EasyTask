@@ -1,0 +1,42 @@
+.homepage-layout {
+    min-height: 100vh;
+  }
+  
+  .content {
+    padding: 50px;
+  }
+  
+  .title {
+    color: #ffffff;
+  }
+  
+  .card-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-form-button {
+    background-color: #1890ff;
+    border-color: #1890ff;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 24px 0;
+    background-color: #001529;
+    color: #ffffff;
+  }
+  
+  @media (max-width: 768px) {
+    .content {
+      padding: 20px;
+    }
+  
+    .card-shadow {
+      margin: 0 10px;
+    }
+  
+    .footer {
+      padding: 12px 0;
+    }
+  }
+  

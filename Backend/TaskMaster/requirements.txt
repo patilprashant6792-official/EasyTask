@@ -1,0 +1,13 @@
+tiktoken
+termcolor
+quart
+quart_motor
+asgi-correlation-id
+loguru
+python-dotenv
+aiohttp
+quart_cors
+uvicorn
+bcrypt
+pyjwt
+pytest

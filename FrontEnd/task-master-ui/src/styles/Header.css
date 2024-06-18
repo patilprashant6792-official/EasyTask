@@ -1,0 +1,97 @@
+/* Header.css */
+
+.app-header {
+  display: flex;
+  justify-content: space-between; /* Distribute space between elements */
+  align-items: center; /* Center elements vertically */
+  padding: 0 1rem;
+  width: 100%;
+  transition: background 0.3s, color 0.3s;
+}
+
+.app-header.light-theme {
+  background: #ffffff;
+  color: #000000;
+}
+
+.app-header.dark-theme {
+  background: #141414;
+  color: #ffffff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.app-name {
+  margin: 0;
+  color: inherit; /* Inherit color based on theme */
+}
+
+.profile-icon {
+  cursor: pointer;
+}
+
+.ant-drawer-content {
+  transition: background 0.3s, color 0.3s;
+}
+
+.ant-drawer-content.light-theme {
+  background: #ffffff;
+  color: #000000;
+}
+
+.ant-drawer-content.dark-theme {
+  background: #1f1f1f;
+  color: #ffffff;
+}
+
+.ant-drawer-title {
+  color: inherit; /* Inherit color based on theme */
+}
+
+.ant-menu {
+  transition: background 0.3s, color 0.3s;
+}
+
+.ant-menu.light-theme {
+  background: #ffffff;
+  color: #000000;
+}
+
+.ant-menu.dark-theme {
+  background: #1f1f1f;
+  color: #ffffff;
+}
+
+.ant-menu-item {
+  color: inherit; /* Inherit color based on theme */
+}
+
+.ant-menu-item:hover {
+  background: #333;
+}
+
+.ant-menu-item .anticon {
+  color: #1890ff;
+}
+
+.ant-avatar {
+  background: #333;
+}
+
+@media (max-width: 786px) {
+  .app-header {
+    padding: 0 0.5rem;
+  }
+
+  .logo-img {
+    height: 30px;
+  }
+}

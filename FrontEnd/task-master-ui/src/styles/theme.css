@@ -1,0 +1,29 @@
+/* src/theme.css */
+:root {
+    --primary-color: #1890ff;
+    --primary-color-hover: #40a9ff;
+    --secondary-color: #f0f2f5;
+    --background-color: #feffff;
+    --text-color: #000000;
+    --header-background-color: #dbedff;
+    --header-text-color: #000000;
+    --menu-background-color: #ffffff;
+    --menu-text-color: #000000;
+    --menu-hover-color: #f0f2f5;
+    --card-background-color: #ffffff;
+  }
+  
+  [data-theme='dark'] {
+    --primary-color: #177ddc;
+    --primary-color-hover: #3a8edb;
+    --secondary-color: #1f1f1f;
+    --background-color: #141414;
+    --text-color: #ffffff;
+    --header-background-color: #1f1f1f;
+    --header-text-color: #ffffff;
+    --menu-background-color: #2c2c2c;
+    --menu-text-color: #ffffff;
+    --menu-hover-color: #3a3a3a;
+    --card-background-color: #1f1f1f;
+  }
+  

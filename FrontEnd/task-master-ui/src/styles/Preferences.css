@@ -1,0 +1,58 @@
+/* Preferences.css */
+
+.preferences-container {
+  padding: 2rem;
+  flex-direction: column;
+  align-items: center;
+  transition: background 0.3s, color 0.3s;
+  min-height: 100vh;
+  display: flex;
+}
+
+.preferences-container.light-theme {
+  background: #ffffff;
+  color: #000000;
+}
+
+.preferences-container.dark-theme {
+  background: #141414;
+  color: #ffffff;
+}
+
+.preferences-card {
+  max-width: 600px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.preferences-card.light-theme {
+  background: #f0f0f0;
+  color: #000000;
+}
+
+.preferences-card.dark-theme {
+  background: #1f1f1f;
+  color: #ffffff;
+}
+
+.theme-radio-group .ant-radio-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.theme-radio-group .ant-radio-wrapper-light {
+  color: #fadb14;
+}
+
+.theme-radio-group .ant-radio-wrapper-dark {
+  color: #1890ff;
+}
+
+@media (max-width: 768px) {
+  .preferences-container {
+      padding: 1rem;
+  }
+
+  .preferences-card {
+      width: 90%;
+  }
+}

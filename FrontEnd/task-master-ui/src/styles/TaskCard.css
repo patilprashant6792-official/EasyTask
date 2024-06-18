@@ -1,0 +1,104 @@
+/* TaskCard.css */
+.task-card {
+    position: relative;
+    background: #333;
+    color: #fff;
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: background 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.task-card.light {
+    background: #ffffff;
+    color: #000000;
+}
+
+.task-card.dark {
+    background: #333333;
+    color: #ffffff;
+}
+
+.task-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.task-card .ant-card-head {
+    background: inherit;
+}
+
+.task-card.to-do .ant-card-head {
+    border-left: 5px solid #ffc003;
+}
+
+.task-card.in-progress .ant-card-head {
+    border-left: 5px solid #0088f7;
+}
+
+.task-card.done .ant-card-head {
+    border-left: 5px solid #00ff08;
+}
+
+.task-card .ant-card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.task-card .ant-card-head-title {
+    color: inherit;
+}
+
+.task-card .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-card .task-title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.task-card .delete-icon {
+    color: #ff4d4f;
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.task-card .delete-icon:hover {
+    color: #ff7875;
+    transform: scale(1.1);
+}
+
+.task-card .description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.task-card .reminder {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    transition: color 0.3s;
+}
+
+.task-card .reminder .anticon {
+    margin-right: 0.5rem;
+}
+
+.task-card .status-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.task-card .status-icons .anticon:hover {
+    color: #1890ff;
+    transform: scale(1.1);
+}

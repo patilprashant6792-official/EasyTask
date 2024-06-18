@@ -1,0 +1,30 @@
+/* DashboardStats.css */
+.stats {
+    padding: 1rem;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .stats.light {
+    background: #ffffff;
+    color: #000000;
+  }
+  
+  .stats.dark {
+    background: #141414;
+    color: #ffffff;
+  }
+  
+  .stats-row {
+    margin-bottom: 1rem;
+  }
+  
+  .search-add-row .search-input.light {
+    background: #ffffff;
+    color: #000000;
+  }
+  
+  .search-add-row .search-input.dark {
+    background: #333333;
+    color: #ffffff;
+  }
+  

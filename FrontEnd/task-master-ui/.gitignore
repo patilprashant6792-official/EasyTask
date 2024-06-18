@@ -1,0 +1,80 @@
+# Node modules
+node_modules/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+jspm_packages/
+
+# Typescript compiled files
+*.tsbuildinfo
+
+# Build output
+dist/
+build/
+
+# Cache directories
+.cache/
+.next/
+.nuxt/
+coverage/
+.vscode/
+
+# Dependency directories
+/.pnp
+.pnp.js
+
+# dotenv environment variables file
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore by CRA
+.DS_Store
+.env
+.env.*
+.vscode/
+.vscode/*
+
+# Ignore config files
+config.js
+config.json
+
+# Ignore IntelliJ IDEA and WebStorm project files
+.idea/
+*.iml
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore log files
+*.log
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk

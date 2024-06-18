@@ -1,0 +1,105 @@
+/* UserProfile.css */
+
+.user-profile-layout {
+  min-height: 100vh;
+  transition: background 0.3s, color 0.3s;
+}
+
+.user-profile-layout.light-theme {
+  background: #ffffff;
+  color: #000000;
+}
+
+.user-profile-layout.dark-theme {
+  background: #141414;
+  color: #ffffff;
+}
+
+.user-profile-content {
+  padding: 2rem;
+  transition: background 0.3s, color 0.3s;
+}
+
+.user-profile-content.light-theme {
+  background: #f0f0f0;
+  color: #000000;
+}
+
+.user-profile-content.dark-theme {
+  background: #1f1f1f;
+  color: #ffffff;
+}
+
+.profile-container {
+  padding: 2rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.profile-container.light-theme {
+  background: #ffffff;
+  color: #000000;
+}
+
+.profile-container.dark-theme {
+  background: #1f1f1f;
+  color: #ffffff;
+}
+
+.profile-avatar {
+  cursor: pointer;
+}
+
+.profile-title {
+  color: inherit; /* Inherit color based on theme */
+}
+
+.profile-descriptions {
+  transition: background 0.3s, color 0.3s;
+}
+
+.profile-descriptions.light-theme {
+  background: #ffffff;
+  color: #000000;
+}
+
+.profile-descriptions.dark-theme {
+  background: #1f1f1f;
+  color: #ffffff;
+}
+
+.profile-description-item {
+  color: inherit; /* Inherit color based on theme */
+}
+
+.back-button {
+  margin-bottom: 1rem;
+}
+
+.back-button.light-theme {
+  color: #1890ff;
+}
+
+.back-button.dark-theme {
+  color: #ffffff;
+}
+
+.edit-button {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .user-profile-content {
+      padding: 1rem;
+  }
+
+  .profile-container {
+      padding: 1.5rem;
+  }
+
+  .profile-avatar {
+      margin-bottom: 1rem;
+  }
+}
