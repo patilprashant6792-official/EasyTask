@@ -24,5 +24,4 @@ cd $FRONTEND_DIR
 chmod +x deploy.sh
 ./deploy.sh
 
-# Return to EasyTask root directory
 cd ../../..
