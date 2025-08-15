@@ -1,3 +1,4 @@
+// Layout wrapper providing header and theming for pages.
 import React from 'react';
 import { Layout, ConfigProvider, theme as antdTheme } from 'antd';
 import AppHeader from './Header';

@@ -1,3 +1,4 @@
+// Registration page component for new users.
 import React, { useEffect } from 'react';
 import axios from 'axios';
 import { Form, Input, Button, Typography, Row, Col, Layout, message, ConfigProvider, theme as antdTheme } from 'antd';

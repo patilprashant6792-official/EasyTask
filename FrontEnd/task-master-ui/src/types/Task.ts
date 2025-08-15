@@ -1,3 +1,4 @@
+// TypeScript interface describing a task.
 export interface Task {
     task_id: string;
     title: string;

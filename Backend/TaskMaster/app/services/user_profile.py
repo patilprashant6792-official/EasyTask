@@ -1,3 +1,4 @@
+# Service for creating and updating user profile information.
 import base64
 import datetime
 import uuid

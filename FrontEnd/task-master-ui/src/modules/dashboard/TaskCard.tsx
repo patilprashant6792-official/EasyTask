@@ -1,3 +1,4 @@
+// Card representing a task with status actions.
 import React from 'react';
 import { Card, Tooltip } from 'antd';
 import { ClockCircleOutlined, DeleteOutlined, CheckOutlined, SyncOutlined, FileDoneOutlined } from '@ant-design/icons';

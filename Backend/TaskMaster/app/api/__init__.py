@@ -1,3 +1,4 @@
+# Registers API blueprints for the application.
 from .health_check import api_bp
 from .user import user_bp
 from .task import task_routes

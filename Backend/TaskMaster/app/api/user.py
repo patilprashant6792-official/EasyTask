@@ -1,3 +1,4 @@
+# Routes for user registration, authentication, and profile management.
 from quart import Blueprint, request
 from app.services.user_service import UserService
 from app.utils.response import success_response, error_response

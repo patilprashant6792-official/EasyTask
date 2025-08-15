@@ -1,3 +1,4 @@
+# Application factory and configuration for TaskMaster backend.
 import asyncio
 from quart import Quart, g, request, jsonify
 from quart_cors import cors

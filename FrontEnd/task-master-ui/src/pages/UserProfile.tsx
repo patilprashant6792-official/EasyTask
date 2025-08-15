@@ -1,3 +1,4 @@
+// Page for viewing and editing the current user's profile.
 import React, { useState, useEffect } from 'react';
 import { Typography, Row, Col, Layout, Avatar, Descriptions, Button, Upload, message, Input, ConfigProvider, theme as antdTheme } from 'antd';
 import { UserOutlined, MailOutlined, PhoneOutlined, EditOutlined, ArrowLeftOutlined } from '@ant-design/icons';

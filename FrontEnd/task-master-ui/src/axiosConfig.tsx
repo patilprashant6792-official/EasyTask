@@ -1,3 +1,4 @@
+// Axios instance configured with authentication interceptors.
 import axios, { InternalAxiosRequestConfig, AxiosError } from 'axios';
 
 import config from './config.json';

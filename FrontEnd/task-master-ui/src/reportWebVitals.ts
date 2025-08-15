@@ -1,3 +1,4 @@
+// Utility to report performance metrics using web-vitals.
 import { ReportHandler } from 'web-vitals';
 
 const reportWebVitals = (onPerfEntry?: ReportHandler) => {

@@ -1,3 +1,4 @@
+// Column component showing tasks for a given status.
 import React from 'react';
 import { useDroppable, useDraggable } from '@dnd-kit/core';
 import { CSS } from '@dnd-kit/utilities';

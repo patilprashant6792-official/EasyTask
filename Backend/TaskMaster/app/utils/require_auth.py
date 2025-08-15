@@ -1,3 +1,4 @@
+# Decorator enforcing JWT-based authentication for routes.
 from functools import wraps
 from quart import request, g, jsonify, current_app
 import jwt

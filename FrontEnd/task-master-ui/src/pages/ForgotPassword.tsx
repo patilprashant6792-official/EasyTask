@@ -1,3 +1,4 @@
+// Password reset page allowing users to set a new password.
 import React from 'react';
 import { Form, Input, Button, Layout, Typography, message, ConfigProvider, theme as antdTheme } from 'antd';
 import { MailOutlined, LockOutlined } from '@ant-design/icons';

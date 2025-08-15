@@ -1,3 +1,4 @@
+# Helper functions for standardized API responses.
 # response.py
 
 def success_response(data=None, message="Success", status_code=200):
