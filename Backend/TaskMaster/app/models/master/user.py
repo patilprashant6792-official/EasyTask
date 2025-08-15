@@ -1,3 +1,4 @@
+# Defines the core user model and authentication tokens.
 import datetime
 import uuid
 

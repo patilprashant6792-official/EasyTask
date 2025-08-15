@@ -1,3 +1,4 @@
+# Validation utilities for user-related requests.
 from app.utils.mongo_db_wrapper import get_db
 
 async def validate_registration(data):

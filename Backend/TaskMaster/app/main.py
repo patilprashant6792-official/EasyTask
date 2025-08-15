@@ -1,3 +1,4 @@
+# Starts the Quart application using Uvicorn.
 import uvicorn
 from app import create_app
 import asyncio

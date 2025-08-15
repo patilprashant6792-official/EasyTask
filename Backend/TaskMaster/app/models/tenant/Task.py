@@ -1,3 +1,4 @@
+# Model representing a task entity for tenant-specific data.
 import datetime
 import uuid
 

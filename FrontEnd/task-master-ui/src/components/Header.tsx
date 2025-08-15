@@ -1,3 +1,4 @@
+// Header component with navigation and user menu.
 import React, { useState, useEffect } from 'react';
 import { Layout, Menu, Avatar, Drawer, Typography } from 'antd';
 import { UserOutlined, EditOutlined, SettingOutlined, LogoutOutlined } from '@ant-design/icons';

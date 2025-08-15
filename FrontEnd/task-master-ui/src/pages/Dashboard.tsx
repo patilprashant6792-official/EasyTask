@@ -1,3 +1,4 @@
+// Dashboard page displaying tasks and statistics.
 import React, { useState, useEffect, useCallback } from 'react';
 import { Layout, Spin, Form, notification, Button, Drawer, Modal, ConfigProvider, theme as antdTheme } from 'antd';
 import { debounce } from 'lodash';

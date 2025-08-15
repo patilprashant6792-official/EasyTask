@@ -1,3 +1,4 @@
+# Endpoints for basic application and MongoDB health checks.
 from quart import jsonify, current_app, Blueprint
 from app.utils.logger import app_logger
 from app.utils.response import error_response, success_response

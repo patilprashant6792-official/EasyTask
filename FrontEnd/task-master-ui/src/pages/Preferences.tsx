@@ -1,3 +1,4 @@
+// User preferences page for selecting application theme.
 import React from 'react';
 import { Card, Radio, Typography, Button, message, ConfigProvider, theme as antdTheme } from 'antd';
 import { usePreferences } from '../context/PreferenceContext';

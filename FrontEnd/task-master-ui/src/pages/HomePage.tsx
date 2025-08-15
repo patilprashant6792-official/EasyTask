@@ -1,3 +1,4 @@
+// Landing page with user login form.
 import React, { useEffect } from 'react';
 import axios from 'axios';
 import { Layout, Row, Col, Card, Form, Input, Button, Typography, message, ConfigProvider, theme as antdTheme } from 'antd';

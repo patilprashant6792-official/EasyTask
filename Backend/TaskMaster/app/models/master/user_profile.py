@@ -1,3 +1,4 @@
+# Model storing user profile metadata and preferences.
 import datetime
 import uuid
 

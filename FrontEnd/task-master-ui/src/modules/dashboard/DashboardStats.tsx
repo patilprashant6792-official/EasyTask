@@ -1,3 +1,4 @@
+// Displays task statistics and search/add controls.
 import React from 'react';
 import { Statistic, Button, Input, Row, Col, ConfigProvider, theme as antdTheme } from 'antd';
 import { PlusOutlined, SearchOutlined } from '@ant-design/icons';

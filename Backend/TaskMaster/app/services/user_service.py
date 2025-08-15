@@ -1,3 +1,4 @@
+# Service handling user registration, authentication, and tokens.
 import datetime
 import bcrypt
 import jwt

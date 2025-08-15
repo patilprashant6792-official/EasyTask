@@ -1,3 +1,4 @@
+// Context provider for managing user theme preferences.
 // src/context/PreferencesContext.tsx
 import React, { createContext, useState, useEffect, ReactNode } from 'react';
 import { ConfigProvider, theme as antdTheme } from 'antd';

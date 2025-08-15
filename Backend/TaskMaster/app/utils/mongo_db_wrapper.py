@@ -1,3 +1,4 @@
+# Utilities for managing MongoDB connections and context.
 # mongo_db_wrapper.py
 from motor.motor_asyncio import AsyncIOMotorClient
 from quart import g, current_app
